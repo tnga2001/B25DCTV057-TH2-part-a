@@ -1,4 +1,4 @@
-export const API_URL = "";
+export const API_URL = "https://6ac70583bea0e72cf5c964e3.mockapi.io/books";
 
 export async function fetchBooks() {
   const res = await fetch(API_URL || "./books.json");
