@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư viện của lớp – JavaScript thuần</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>📚 Thư viện của lớp</h1>
+    <div class="header-right">
+      <span>Yêu thích: <strong id="fav-count">0</strong></span>
+      <button id="theme-toggle" type="button">🌙 Tối</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Công cụ tìm kiếm và lọc">
+      <input type="search" id="search" placeholder="Tìm theo tên sách…" aria-label="Tìm theo tên sách">
+      <select id="genre-filter" aria-label="Lọc theo thể loại">
+        <option value="">Tất cả thể loại</option>
+      </select>
+    </section>
+
+    <p id="status" role="status"></p>
+    <section id="book-grid" class="grid" aria-label="Danh sách sách"></section>
+
+    <section class="add-section" aria-labelledby="add-title">
+      <h2 id="add-title">Thêm sách mới</h2>
+      <form id="book-form" novalidate>
+        <div class="field">
+          <label for="title">Tên sách</label>
+          <input id="title" name="title" type="text">
+          <small class="error" data-error-for="title"></small>
+        </div>
+        <div class="field">
+          <label for="author">Tác giả</label>
+          <input id="author" name="author" type="text">
+          <small class="error" data-error-for="author"></small>
+        </div>
+        <div class="field">
+          <label for="genre">Thể loại</label>
+          <select id="genre" name="genre"><option value="">-- Chọn thể loại --</option></select>
+          <small class="error" data-error-for="genre"></small>
+        </div>
+        <div class="field">
+          <label for="year">Năm xuất bản</label>
+          <input id="year" name="year" type="number">
+          <small class="error" data-error-for="year"></small>
+        </div>
+        <button type="submit">Thêm sách</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© Thư viện lớp – Bài thực hành 02</p></footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

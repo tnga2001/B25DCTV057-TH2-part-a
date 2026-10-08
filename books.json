@@ -1,0 +1,14 @@
+[
+ {"id":"1","title":"Dế Mèn Phiêu Lưu Ký","author":"Tô Hoài","genre":"Thiếu nhi","year":1941},
+ {"id":"2","title":"Nhà Giả Kim","author":"Paulo Coelho","genre":"Tiểu thuyết","year":1988},
+ {"id":"3","title":"Clean Code","author":"Robert C. Martin","genre":"Công nghệ","year":2008},
+ {"id":"4","title":"Sapiens","author":"Yuval Noah Harari","genre":"Khoa học","year":2011},
+ {"id":"5","title":"Tôi Thấy Hoa Vàng Trên Cỏ Xanh","author":"Nguyễn Nhật Ánh","genre":"Tiểu thuyết","year":2010},
+ {"id":"6","title":"The Pragmatic Programmer","author":"Andrew Hunt","genre":"Công nghệ","year":1999},
+ {"id":"7","title":"Totto-chan bên cửa sổ","author":"Tetsuko Kuroyanagi","genre":"Thiếu nhi","year":1981},
+ {"id":"8","title":"Lược Sử Thời Gian","author":"Stephen Hawking","genre":"Khoa học","year":1988},
+ {"id":"9","title":"Số Đỏ","author":"Vũ Trọng Phụng","genre":"Tiểu thuyết","year":1936},
+ {"id":"10","title":"JavaScript: The Good Parts","author":"Douglas Crockford","genre":"Công nghệ","year":2008},
+ {"id":"11","title":"Cosmos","author":"Carl Sagan","genre":"Khoa học","year":1980},
+ {"id":"12","title":"Dr. Seuss: Cat in the Hat","author":"Dr. Seuss","genre":"Thiếu nhi","year":1957}
+]
